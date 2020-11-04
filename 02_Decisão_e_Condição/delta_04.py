@@ -2,17 +2,13 @@
 
 import math
 
-def vertice(delta, a, b):
-    xv = -b/(2*a)
-    yv = -delta/(4*a)
-    return (xv, yv)
-
 def delta():
     a = int(input("Digite o valor do coeficiente a: "))
     b = int(input("Digite o valor do coeficiente b: "))
     c = int(input("Digite o valor do coeficiente c: "))
     delta = b*b - 4 * a * c
-    xv, yv = vertice(delta, a, b)
+    xv = -b/(2*a)
+    yv = -delta/(4*a)
     if delta < 0:
         print("A equação não possui raízes reais.")
     elif delta == 0:
