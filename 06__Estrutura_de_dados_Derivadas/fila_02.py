@@ -1,4 +1,4 @@
-""" fila de itens """
+""" fila de pessoas """
 
 
 def fila():
